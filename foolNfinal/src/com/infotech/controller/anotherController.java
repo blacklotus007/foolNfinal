@@ -12,16 +12,16 @@ public class anotherController {
 	{
 		return new ModelAndView("listName","listData","List is here");
 	}
-// 
-//	@RequestMapping("/listupdated")
-//	public ModelAndView getUpdatedList()
-//	{
-//		return new ModelAndView("listName","listUpdatedData","List is updated");
-//	}
-//	@RequestMapping("/listdeleted")
-//	public ModelAndView getDeletedList()
-//	{
-//		return new ModelAndView("listName","listDeletedData","List is Deleted");
-//	}
+ 
+	@RequestMapping("/listupdated")
+	public ModelAndView getUpdatedList()
+	{
+		return new ModelAndView("listName","listUpdatedData","List is updated");
+	}
+	@RequestMapping("/listdeleted")
+	public ModelAndView getDeletedList()
+	{
+		return new ModelAndView("listName","listDeletedData","List is Deleted");
+	}
 
 }

@@ -9,6 +9,6 @@
 <body>
 <h3>${listData}</h3>
 <h3>${listUpdatedData}</h3>
-<h3>#{listDeletedData}</h3> 
+<h3>${listDeletedData}</h3> 
 </body>
 </html>
